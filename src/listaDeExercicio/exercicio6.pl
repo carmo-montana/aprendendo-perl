@@ -1,4 +1,4 @@
-# FAÇA UM PROGRAMA QUE, VEREFICA AS NOTAS DO ALUNO. USA O GIVEN E WHEN.
+# FAÇA UM PROGRAMA QUE, VEREFICA AS NOTAS DOS ALUNOS. USA O GIVEN E WHEN.
 
 use experimental "switch";
 
@@ -21,9 +21,9 @@ given($nome) {
 }
 
 if ($nota >= 6) {
-    print "O aluno $nome está de parabéns passou em todas as matérias com a nota $nota\n";
+    print "O aluno(aluna) $nome está de parabéns passou em todas as matérias com a nota $nota\n";
 } elsif ( $nota >= 5) {
-    print "O aluno(aluna) $nome está de recuperação em Biologia e filosofia. Precisa melhara muito, sua nota foi $nota  '"
+    print "O aluno(aluna) $nome está de recuperação em Biologia e filosofia. Precisa melhara muito, sua nota foi $nota\n"
 } else {
   print "O aluno(aluna) $nome reprovou em português, matemática e física. Não teve um bom aproveitamento durante o ano. a sua nota foi $nota"
 }
